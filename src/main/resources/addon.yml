@@ -1,0 +1,7 @@
+name: VOXPIXELPortal
+main: com.voxpixel.portal.VoxPixelPortalAddon
+version: 1.0.0
+api-version: '1.21.4'
+authors:
+  - VOXPIXEL
+description: Sends players entering portals in the island world to the VOXPIXEL hub.
