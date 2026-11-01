@@ -18,7 +18,8 @@ public class PortalListener implements Listener {
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onPortalEnter(PlayerPortalEvent event) {
 
-        if (!event.getFrom().getWorld().getName().equalsIgnoreCase("bskyblock world")) {
+        if (!event.getFrom().getWorld().getName()
+                .equalsIgnoreCase("bskyblock_world")) {
             return;
         }
 
